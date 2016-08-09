@@ -132,3 +132,5 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+.idea/misc.xml
