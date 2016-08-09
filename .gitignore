@@ -133,4 +133,4 @@ ENV/
 # Rope project settings
 .ropeproject
 
-pyspark-testing.iml
+.idea/misc.xml
