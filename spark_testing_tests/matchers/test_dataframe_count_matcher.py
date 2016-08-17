@@ -5,10 +5,7 @@ from pyspark.sql.types import Row
 
 from spark_testing.matchers import *
 from spark_testing import sql_context
-
-
-def assertion_error_message(expected, but):
-    return '\nExpected: %s\n     but: %s\n' % (expected, but)
+from spark_testing_tests.matchers import assertion_error_message
 
 
 class TestDataFrameCountMatcher(unittest.TestCase):
