@@ -26,6 +26,7 @@ def test_dataframe_count(self):
 - Check a dataframe schema with has_schema
 - Check a dataframe schema contains a certain field with has_schema_containing_field
 - Check a given field in a given row has the right value
+- Check two dataframes are the same (same schema, same rows but without order)
 
 # Shared SQLContext
 
