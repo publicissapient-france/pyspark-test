@@ -5,7 +5,7 @@ from pyspark.sql.types import Row, StructType, StructField, IntegerType, StringT
 
 from spark_testing.matchers import *
 from spark_testing import sql_context
-from spark_testing_tests.matchers import assertion_error_message
+from spark_testing.matchers.tests import assertion_error_message
 
 
 class TestDataFrameSchemaContainsMatcher(unittest.TestCase):

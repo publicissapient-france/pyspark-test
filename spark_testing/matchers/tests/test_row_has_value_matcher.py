@@ -4,7 +4,7 @@ from hamcrest.core.assert_that import assert_that
 from pyspark.sql.types import Row
 
 from spark_testing.matchers.row_has_value_matcher import has_value, Field
-from spark_testing_tests.matchers import assertion_error_message
+from spark_testing.matchers.tests import assertion_error_message
 
 
 class TestDataFrameSchemaContainsMatcher(unittest.TestCase):
