@@ -42,3 +42,34 @@ sql_context.createDataFrame(
   schema=schema
 )
 ```
+
+
+# Developpment
+
+## Working environment
+
+Run unit tests
+
+```
+tox
+```
+
+Run quality check
+
+```
+tox -e lint
+```
+
+Clean workspace
+
+```
+tox -e clean
+```
+
+## Build distributions
+
+```
+tox -e build
+```
+
+This will generate a tar.gz file with sources and a wheel file.
