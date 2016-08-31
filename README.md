@@ -48,27 +48,20 @@ sql_context.createDataFrame(
 
 ## Working environment
 
-Run unit tests
-
-```
+```bash
+# Run unit tests
 tox
-```
 
-Run quality check
-
-```
-tox -e lint
-```
-
-Clean workspace
-
-```
+# Clean workspace
 tox -e clean
+
+# Run quality check
+tox -e lint
 ```
 
 ## Build distributions
 
-```
+```bash
 tox -e build
 ```
 
